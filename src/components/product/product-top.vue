@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import ProductBreadcrumbs from "../product-breadcrumbs.vue";
-import ShareBtn from "../share-btn.vue";
+import AppBreadcrumbs from "../app-breadcrumbs.vue";
+import ShareBtn from "../shared/share-btn.vue";
 </script>
 
 <template>
   <section
     class="text-primary container flex h-12 items-center justify-between text-sm"
   >
-    <ProductBreadcrumbs />
+    <AppBreadcrumbs />
     <ShareBtn />
   </section>
 </template>
