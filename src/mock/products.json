@@ -7,6 +7,48 @@
       "sku": "N4831.54-1521-B-6",
       "color": "Glitz Cream",
       "description": "Our No. 1 bestselling boot for women, Priscilla walks an elegant line between timeless classic and cowgirl chic. The vintage-inspired Tioga stitch pattern harks back to yesteryear, but Priscilla is...",
+      "colors": [
+        {
+          "name": "Glitz Cream",
+          "preview_url": "https://cdn.starapps.studio/v2/apps/vsk/lucchese-inc/groups/122889/100/priscilla-glitz-cream.webp"
+        },
+        {
+          "name": "Red",
+          "preview_url": "https://cdn.starapps.studio/v2/apps/vsk/lucchese-inc/groups/122889/100/priscilla-red.webp"
+        },
+        {
+          "name": "Black",
+          "preview_url": "https://cdn.starapps.studio/v2/apps/vsk/lucchese-inc/groups/122889/100/priscilla-black.webp"
+        },
+        {
+          "name": "Brown",
+          "preview_url": "https://cdn.starapps.studio/v2/apps/vsk/lucchese-inc/groups/122889/100/priscilla-brown.webp"
+        },
+        {
+          "name": "Espresso",
+          "preview_url": "https://cdn.starapps.studio/v2/apps/vsk/lucchese-inc/groups/122889/100/priscilla-suede-espresso.webp"
+        },
+        {
+          "name": "Crinkle Patent Black",
+          "preview_url": "https://cdn.starapps.studio/v2/apps/vsk/lucchese-inc/groups/122889/100/priscilla-crinkle-patent-black.webp"
+        },
+        {
+          "name": "Pewter",
+          "preview_url": "https://cdn.starapps.studio/v2/apps/vsk/lucchese-inc/groups/122889/100/priscilla-pewter-pewter.webp"
+        },
+        {
+          "name": "Garnet",
+          "preview_url": "https://cdn.starapps.studio/v2/apps/vsk/lucchese-inc/groups/122889/100/priscilla-suede-garnet.webp"
+        },
+        {
+          "name": "Emerald",
+          "preview_url": "https://cdn.starapps.studio/v2/apps/vsk/lucchese-inc/groups/122889/100/priscilla-suede-emerald.webp"
+        },
+        {
+          "name": "Red Luster",
+          "preview_url": "https://cdn.starapps.studio/v2/apps/vsk/lucchese-inc/groups/122889/100/priscilla-red-luster.webp"
+        }
+      ],
       "images": [
         {
           "url": "@/assets/img/product-1.jpg",
