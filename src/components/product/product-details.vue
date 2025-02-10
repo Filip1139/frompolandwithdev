@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import ProductAddToCart from "./procuct-add-to-cart.vue";
-import ProductAddToCart from './procuct-add-to-cart.vue';
+import ProductColorSelector from "./product-color-selector.vue";
 import { inject } from "vue";
 import { currentProductKey } from "@/lib/symbols";
 import type { Product } from "@/lib/types";
@@ -31,6 +31,7 @@ const currentProduct = inject<Product>(currentProductKey)!;
       <button class="text-primary underline mt-1 mb-6">Read more</button>
     </div>
 
+    <ProductColorSelector class="mb-4" :colors="currentProduct.colors" />
     <ProductAddToCart />
   </div>
 </template>
