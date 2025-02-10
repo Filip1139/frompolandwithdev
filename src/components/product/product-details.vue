@@ -5,6 +5,7 @@ import { inject } from "vue";
 import { currentProductKey } from "@/lib/symbols";
 import type { Product } from "@/lib/types";
 import { formatPrice } from "@/utils/formatPrice";
+import ProductSizeSelector from "./product-size-selector/product-size-selector.vue";
 
 const currentProduct = inject<Product>(currentProductKey)!;
 </script>
@@ -32,6 +33,7 @@ const currentProduct = inject<Product>(currentProductKey)!;
     </div>
 
     <ProductColorSelector class="mb-4" :colors="currentProduct.colors" />
+    <ProductSizeSelector class="mb-8" />
     <ProductAddToCart />
   </div>
 </template>

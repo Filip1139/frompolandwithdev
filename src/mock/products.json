@@ -86,6 +86,70 @@
           "url": "@/assets/img/product-9.jpg",
           "alt": "Product 9"
         }
+      ],
+      "sizes": [
+        {
+          "size": 6,
+          "available": true
+        },
+        {
+          "size": 6.5,
+          "available": true
+        },
+        {
+          "size": 7,
+          "available": true
+        },
+        {
+          "size": 7.5,
+          "available": true
+        },
+        {
+          "size": 8,
+          "available": true
+        },
+        {
+          "size": 8.5,
+          "available": true
+        },
+        {
+          "size": 9,
+          "available": true
+        },
+        {
+          "size": 9.5,
+          "available": true
+        },
+        {
+          "size": 10,
+          "available": true
+        },
+        {
+          "size": 10.5,
+          "available": false
+        },
+        {
+          "size": 11,
+          "available": true
+        }
+      ],
+      "widths": [
+        {
+          "name": "B",
+          "available": true
+        },
+        {
+          "name": "C",
+          "available": true
+        }
+      ],
+      "calf_widths": [
+        {
+          "name": "Regular"
+        },
+        {
+          "name": "Extended"
+        }
       ]
     }
   ]

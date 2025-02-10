@@ -1,12 +1,12 @@
 <script setup lang="ts">
 import { Icon } from "@iconify/vue";
+import AppButton from "../app-button.vue";
 </script>
 
 <template>
-  <button
-    class="bg-primary text-white px-4 py-2 flex flex-col items-center justify-center w-full uppercase font-semibold"
-  >
-    <Icon icon="heroicons:shopping-cart" class="size-6 mb-1" />
-    <span>Add to cart</span>
-  </button>
+  <AppButton label="Add to cart" class="mb-4">
+    <template #icon>
+      <Icon icon="heroicons:shopping-cart" class="size-6 mb-1" />
+    </template>
+  </AppButton>
 </template>
