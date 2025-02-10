@@ -11,9 +11,9 @@ const currentProduct = inject<Product>(currentProductKey)!;
 </script>
 
 <template>
-  <div class="md:pl-12 grow-1 pr-3">
+  <div class="md:pl-12 pr-3">
     <h1
-      class="tracking-[.025em] mb-[.3em] text-[clamp(24px,5vw,40px)] leading-[1.2] uppercase"
+      class="tracking-[.025em] mb-[.3em] text-[clamp(24px,4vw,40px)] leading-[1.2] uppercase"
     >
       {{ currentProduct.name }}
     </h1>

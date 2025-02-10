@@ -8,7 +8,7 @@ import NavProductCategories from "../nav/nav-product-categories.vue";
 
 <template>
   <header
-    class="text-primary sticky top-0 container border-b border-b-[#e8e7e7] bg-white py-2 lg:pb-0"
+    class="text-primary sticky top-0 container border-b border-b-[#e8e7e7] bg-white py-2 lg:pb-0 z-50"
   >
     <div class="grid grid-cols-[1fr_auto_1fr] items-center">
       <button class="lg:hidden">

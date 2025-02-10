@@ -17,8 +17,8 @@ provide(currentProductKey, currentProduct.value as Product);
   <TheHeader />
   <ProductTop />
 
-  <section class="container flex">
-    <ProductImgCarousel />
+  <section class="container flex flex-col md:flex-row">
+    <ProductImgCarousel class="mb-3 md:mb-0 md:w-[52%] min-[1400px]:w-[63%] -mx-3 md:mx-0 " />
     <!-- Product meta -->
     <ProductDetails />
   </section>
