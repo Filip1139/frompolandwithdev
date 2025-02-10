@@ -51,39 +51,39 @@
       ],
       "images": [
         {
-          "url": "@/assets/img/product-1.jpg",
+          "url": "/img/priscilla-1.webp",
           "alt": "Product 1"
         },
         {
-          "url": "@/assets/img/product-2.jpg",
+          "url": "/img/priscilla-2.webp",
           "alt": "Product 2"
         },
         {
-          "url": "@/assets/img/product-3.jpg",
+          "url": "/img/priscilla-3.webp",
           "alt": "Product 3"
         },
         {
-          "url": "@/assets/img/product-4.jpg",
+          "url": "/img/priscilla-4.webp",
           "alt": "Product 4"
         },
         {
-          "url": "@/assets/img/product-5.jpg",
+          "url": "/img/priscilla-5.webp",
           "alt": "Product 5"
         },
         {
-          "url": "@/assets/img/product-6.jpg",
+          "url": "/img/priscilla-6.webp",
           "alt": "Product 6"
         },
         {
-          "url": "@/assets/img/product-7.jpg",
+          "url": "/img/priscilla-7.webp",
           "alt": "Product 7"
         },
         {
-          "url": "@/assets/img/product-8.jpg",
+          "url": "/img/priscilla-8.webp",
           "alt": "Product 8"
         },
         {
-          "url": "@/assets/img/product-9.jpg",
+          "url": "/img/priscilla-9.webp",
           "alt": "Product 9"
         }
       ],
