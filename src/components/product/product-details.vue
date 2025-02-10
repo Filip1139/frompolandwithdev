@@ -1,30 +1,36 @@
 <script setup lang="ts">
+import ProductAddToCart from "./procuct-add-to-cart.vue";
 import ProductAddToCart from './procuct-add-to-cart.vue';
+import { inject } from "vue";
+import { currentProductKey } from "@/lib/symbols";
+import type { Product } from "@/lib/types";
+import { formatPrice } from "@/utils/formatPrice";
+
+const currentProduct = inject<Product>(currentProductKey)!;
 </script>
 
 <template>
   <div class="md:pl-12 grow-1 pr-3">
-    <h1 class="tracking-light md:mb-3 text-3xl font-light uppercase">
-      Priscilla
+    <h1
+      class="tracking-[.025em] mb-[.3em] text-[clamp(24px,5vw,40px)] leading-[1.2] uppercase"
+    >
+      {{ currentProduct.name }}
     </h1>
-    <p class="text-gray pt-1.5 text-base">$1,095</p>
-
-    <p class="text-sm text-primary">
-      As low as $99/mo with <span class="font-medium">affirm</span>.
-      <a href="#" class="underline">Check your purchasing power</a>
-    </p>
-    <p class="text-gray-500 hidden text-sm md:block">
-      STYLE NO.N4831.54-1521-B-6
+    <p class="text-primary font-light text-2xl mb-4">
+      {{ formatPrice(currentProduct.price, currentProduct.currency) }}
     </p>
 
-    <div class="space-y-2">
-      <p class="text-gray-600">
-        Our No. 1 bestselling boot for women, Priscilla walks an elegant line
-        between timeless classic and cowgirl chic. The vintage-inspired Tioga
-        stitch pattern harks back to yesteryear, but Priscilla is...
+    <p class="text-primary hidden text-sm my-4 md:block">
+      {{ currentProduct.sku }}
+    </p>
+
+    <div>
+      <p class="text-sm">
+        {{ currentProduct.description }}
       </p>
-      <button class="text-primary underline">Read more</button>
+      <button class="text-primary underline mt-1 mb-6">Read more</button>
     </div>
+
     <ProductAddToCart />
   </div>
 </template>
